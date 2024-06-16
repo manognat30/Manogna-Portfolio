@@ -821,18 +821,14 @@ h3.my-profession
   }
   
   .blog-title {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
-    color: #333;
+    font-family: 'Times New Roman', sans-serif;
+    color: var(--text-black-900);
     margin: 0;
     padding-bottom: 5px;
   }
   
-  .blog-date {
-    font-size: 14px;
-    color: #888;
-    margin: 5px 0 20px 0;
-  }
   
   .blog-text {
     font-size: 16px;
@@ -859,7 +855,7 @@ h3.my-profession
 
   /* Blog section h4 styles */
 #blog h5 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--skin-color);
