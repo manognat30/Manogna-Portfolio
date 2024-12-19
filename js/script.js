@@ -1,6 +1,6 @@
 /* ============================== typing animation ============================ */
 var typed = new Typed(".typing", {
-    strings: ["", "Machine Learning Engineer", "Data Scientist", "Database Administrator"],
+    strings: ["", "Machine Learning Engineer", "Data Scientist", "Data Analyst"],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true
@@ -9,7 +9,7 @@ var typed = new Typed(".typing", {
 /* ============================== Open Resume in New Window ============================ */
 document.getElementById('my-resume-btn').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent default action
-    window.open('files/my_resume.pdf', '_blank'); // Replace with the actual path to your resume file
+    window.open('files/My_Resume.pdf', '_blank'); // Replace with the actual path to your resume file
 });
 
 /* ============================== Modal Elements in Projects ========================== */
