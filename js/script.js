@@ -9,7 +9,7 @@ var typed = new Typed(".typing", {
 /* ============================== Open Resume in New Window ============================ */
 document.getElementById('my-resume-btn').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent default action
-    window.open('files/My_Resume (1).pdf', '_blank');
+    window.open('files/Rèsume.pdf', '_blank');
 });
 
 /* ============================== Modal Elements in Projects ========================== */
